@@ -1,6 +1,7 @@
 import '/src/css-folder/AboutMe.css';
 // import { IoMdArrowDroprightCircle } from "react-icons/io";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+// import { FaArrowAltCircleRight } from "react-icons/fa";
+import { IoArrowForwardCircleSharp } from "react-icons/io5";
 
 export default function AboutMe() {
   return (
@@ -51,7 +52,7 @@ export default function AboutMe() {
              
           <div className='AboutMe__btn__container flex rounded-[30px] items-center gap-2'>
             <button className='AboutMePAge__button rounded-[30px] text-white bg-[#344E41]'>
-            Download CV</button> <FaArrowAltCircleRight size={25} className='AboutPage__arrowIcon  text-[white]'/>
+            Download CV</button> <IoArrowForwardCircleSharp  size={30} className='AboutPage__arrowIcon  text-[white]'/>
             
             </div>
 

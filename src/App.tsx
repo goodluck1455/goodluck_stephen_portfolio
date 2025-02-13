@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import AboutMe from './assets/Components/AboutMe'
+import Contact from './assets/Components/Contact'
 import FrontPage from './assets/Components/FrontPage'
 import Header from './assets/Components/Header'
 
@@ -14,6 +15,7 @@ function App() {
     <Header />
     <FrontPage />
     <AboutMe />
+    <Contact />
         
     </>
   )

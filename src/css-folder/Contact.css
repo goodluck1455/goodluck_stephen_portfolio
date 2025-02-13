@@ -1,0 +1,36 @@
+
+:root{
+    --firsColorDarkgreen:#344E41;
+    --SecondColorYellow: #FD853A;
+    }
+
+.contact__body{
+    height: 20rem;
+}
+.contact___container{
+    margin: 0rem 4rem 2rem 4rem;
+}
+
+
+.ContactMePage___Heading h3{
+    /* margin-top: 9rem; */
+    padding-top: 3rem;
+    /* font-size: 19px; */
+    position: relative;
+}
+.ContactMePage___Heading h3::before{
+    position: absolute;
+    content: "";
+    width: 1%;
+    height: 100%;
+    background-color: var(--firsColorDarkgreen);
+    padding-right: 10px;
+    top: 0;
+    left: -22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Contact___FormContainer{
+    margin-top: 3rem;
+}
