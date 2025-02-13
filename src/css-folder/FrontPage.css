@@ -9,6 +9,7 @@
 
     .frontpage_name_container{
         margin: 2rem 4rem 2rem 4rem;
+        background-color: white;
     }
 
 
@@ -39,6 +40,7 @@
     left: 0;
     bottom: 0;
 }
+
 
 
 
