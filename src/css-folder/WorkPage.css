@@ -1,0 +1,43 @@
+:root{
+    --firsColorDarkgreen:#344E41;
+    --SecondColorYellow: #FD853A;
+    --thirdColorLightWhite: #E9ECEF;
+    }
+
+
+.work___container{
+    margin: 0rem 4rem 2.5rem 4rem;
+}
+
+.Work___Education, .Work___Experience{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    border: 1px solid #E1E1E2;
+}
+
+.Work__Logo{
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    /* margin-right: 10px; */
+    /* padding: 10px; */
+}
+.Work___EdHeading{
+ margin-top: 2rem;
+}
+.Work__bottom-line{
+    color: rgb(87, 91, 94, .2);
+    /* width: 4rem; */
+    margin: 0.5rem 2rem 0.5rem 2rem;
+}
+.Work___EDucation_details{
+   margin: 1.5rem 0.5rem 0.8rem 2rem;
+   padding: 10px;
+   border-left: 6px solid #d0d2d6;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   
+}

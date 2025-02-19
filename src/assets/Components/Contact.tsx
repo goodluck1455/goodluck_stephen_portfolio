@@ -5,10 +5,47 @@ import { FaXTwitter  as Twitter} from "react-icons/fa6";
 import { IoLocation as Location } from "react-icons/io5";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import { IoIosArrowDown as FaChevronDown } from "react-icons/io";
+// import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 
 export default function Contact() {
+
+const onSubmit = async (event: any) => {
+  event.preventDefault();
+  toast.info("Sending information in progress...");
+
+  const formData = new FormData(event.target);
+  formData.append("access_key", "e64185f1-4934-410e-9de1-f2184d64d003");
+
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+
+    const data = await response.json();
+
+    if (data.success) {
+      toast.success("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      toast.error(data.message);
+    }
+  } catch (error) {
+    toast.error("You are currently offline. Please check your network.");
+  }
+};
+
+
+
+
+
   return (
     <div className='contact__body bg-[white]'>
       
@@ -23,7 +60,7 @@ export default function Contact() {
                        <h3 className='text-5xl tracking-widest leading-14'><span className='font-semibold'>Let's Talk for</span> 
                         <span className='text-[#FD853A] italic font-light'> Your <br/>
                        Next Project </span></h3>
-
+                        
                        <div>
                         <ul className='contact__ulList'>
                           <li className='flex'>
@@ -47,20 +84,21 @@ export default function Contact() {
                     </div>
 
 
-                    <form action="" >
+                    <form onSubmit={onSubmit} >
                     <div>
-
+                    {/* <div>{result}</div> */}
                     {/* First line of inputs */}
                    
                     <div className='flex gap-6' >
+                        
                         <div>
                         <label htmlFor="text" className='conntact__label'>Name *</label> <br />
-                        <input type="text" placeholder='John Doe' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="text" name='name' placeholder='John Doe' className='Contact__input bg-[#E9ECEF]' required/>
                         </div>
 
                         <div>
                         <label htmlFor="text" className='conntact__label'>Email *</label> <br />
-                        <input type="Email" placeholder='exampl@gmail.com' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="email" name='email' placeholder='exampl@gmail.com' className='Contact__input bg-[#E9ECEF]' required/>
                         </div>  
                     </div>
 
@@ -69,13 +107,13 @@ export default function Contact() {
                     <div className='flex gap-6 mt-5' >
                         <div>
                         <label htmlFor="text" className='conntact__label'>Phone *</label> <br />
-                        <input type="number" placeholder='Enter phone number' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="number" name='number' placeholder='Enter phone number' className='Contact__input bg-[#E9ECEF]' required/>
                         </div>
 
                         <div className='relative'>
                         <label htmlFor="text" className='conntact__label'>Budget Range *</label> <br />
                        
-                        <select name="Budget Range"   className='appearance-none Contact__input 
+                        <select name="Budget_Range"   className='appearance-none Contact__input 
                         p-3 pr-10 Contact__input__select_btn bg-[#E9ECEF] text-black w-full'>
                           <option value="Select"> Select </option>
                           <option value="Selectjbj"> Selecdcdct </option>
@@ -94,7 +132,7 @@ export default function Contact() {
 
                     <div className='mt-5'>
                     <label htmlFor="text" className='conntact__label '>Your message *</label> <br />
-                    <textarea name="" className='resize-none Contact__input__textarea bg-[#E9ECEF] w-full'>
+                    <textarea name="message" placeholder='Your message ...' className='resize-none Contact__input__textarea bg-[#E9ECEF] w-full'>
                     </textarea>
                     </div>
                    
@@ -105,6 +143,9 @@ export default function Contact() {
                          </div>
                     </div>
 
+                        <ToastContainer
+                        autoClose={6000}
+                        />
 
                     </form>
 

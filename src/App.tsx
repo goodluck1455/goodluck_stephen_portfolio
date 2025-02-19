@@ -6,6 +6,8 @@ import AboutMe from './assets/Components/AboutMe'
 import Contact from './assets/Components/Contact'
 import FrontPage from './assets/Components/FrontPage'
 import Header from './assets/Components/Header'
+import ProjectPage from './assets/Components/ProjectPage'
+import Work from './assets/Components/Work'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
     <Header />
     <FrontPage />
     <AboutMe />
+    <Work />
+    <ProjectPage />
     <Contact />
         
     </>

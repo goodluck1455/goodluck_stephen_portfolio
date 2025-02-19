@@ -4,7 +4,7 @@ import '/src/css-folder/header.css';
 export default function Header() {
   return (
     <>
-      <div className='fixed w-screen'>
+      <div className='fixed w-screen z-10'>
          <div className="header-container text-white flex justify-between place-content-center ">
           <div className='flex gap-2 cursor-pointer'>
           <div className='myBranding-Logo ' >
