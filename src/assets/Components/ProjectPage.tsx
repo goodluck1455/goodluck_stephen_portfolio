@@ -11,8 +11,8 @@ import '/src/css-folder/Project.css';
 interface ProjectPageProps {
   // showTurnHeadsLater?: boolean;
   // containerClassName?: string;
-  projectName: string;
-  projectImage: string
+  // projectName: string;
+  // projectImage: string
 }
 
 
