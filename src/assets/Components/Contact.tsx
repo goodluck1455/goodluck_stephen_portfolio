@@ -47,17 +47,19 @@ const onSubmit = async (event: any) => {
 
 
   return (
-    <div className='contact__body bg-[white]'>
+    <div className='contact__body bg-[#344E41] '>
       
       <div className="contact___container">
 
       <div className='ContactMePage___Heading'>
-            <h3 className='text-[#FD853A] text-3xl font-stretch-50%'>Contact</h3>
+            <h3 className='text-[white] 
+            
+            text-3xl font-stretch-50%'>Contact</h3>
         </div>
             
             <div className='Contact___FormContainer flex gap-20 justify-center'>
                     <div>
-                       <h3 className='text-5xl tracking-widest leading-14'><span className='font-semibold'>Let's Talk for</span> 
+                       <h3 className='text-5xl tracking-widest leading-14'><span className='font-semibold text-white'>Let's Talk for</span> 
                         <span className='text-[#FD853A] italic font-light'> Your <br/>
                        Next Project </span></h3>
                         
@@ -93,12 +95,12 @@ const onSubmit = async (event: any) => {
                         
                         <div>
                         <label htmlFor="text" className='conntact__label'>Name *</label> <br />
-                        <input type="text" name='name' placeholder='John Doe' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="text" name='name' placeholder='John Doe' className='Contact__input text-[white] border border-[#445A46] bg-[#445A46]' required/>
                         </div>
 
                         <div>
                         <label htmlFor="text" className='conntact__label'>Email *</label> <br />
-                        <input type="email" name='email' placeholder='exampl@gmail.com' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="email" name='email' placeholder='exampl@gmail.com' className='Contact__input text-[white] border border-[#445A46] bg-[#445A46]' required/>
                         </div>  
                     </div>
 
@@ -107,14 +109,14 @@ const onSubmit = async (event: any) => {
                     <div className='flex gap-6 mt-5' >
                         <div>
                         <label htmlFor="text" className='conntact__label'>Phone *</label> <br />
-                        <input type="number" name='number' placeholder='Enter phone number' className='Contact__input bg-[#E9ECEF]' required/>
+                        <input type="number" name='number' placeholder='Enter phone number' className='Contact__input text-[white] border border-[#445A46] bg-[#445A46]' required/>
                         </div>
 
                         <div className='relative'>
                         <label htmlFor="text" className='conntact__label'>Budget Range *</label> <br />
                        
-                        <select name="Budget_Range"   className='appearance-none Contact__input 
-                        p-3 pr-10 Contact__input__select_btn bg-[#E9ECEF] text-black w-full'>
+                        <select name="Budget_Range"   className='appearance-none Contact__input text-[white] border border-[#445A46]
+                        p-3 pr-10 Contact__input__select_btn bg-[#445A46]  w-full'>
                           <option value="Select"> Select </option>
                           <option value="Selectjbj"> Selecdcdct </option>
                         </select>
@@ -132,7 +134,8 @@ const onSubmit = async (event: any) => {
 
                     <div className='mt-5'>
                     <label htmlFor="text" className='conntact__label '>Your message *</label> <br />
-                    <textarea name="message" placeholder='Your message ...' className='resize-none Contact__input__textarea bg-[#E9ECEF] w-full'>
+                    <textarea name="message" placeholder='Your message ...' className='resize-none Contact__input__textarea
+                    outline-none text-[white] border border-[#445A46] bg-[#445A46] w-full'>
                     </textarea>
                     </div>
                    
