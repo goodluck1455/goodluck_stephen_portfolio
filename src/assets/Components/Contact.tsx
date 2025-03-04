@@ -51,7 +51,7 @@ const onSubmit = async (event: any) => {
   return (
     <div className='contact__body bg-[#344E41] ' id='contact'>
       
-      <div className="mt-[0rem] ml-[4rem] mb-[2rem] mr-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem] ">
+      <div className="mt-[0rem] ml-[4rem] max-md:ml-[2rem] max-md:mr-[2rem] mb-[2rem] mr-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem] ">
 
           <HeadingPage HeadingName={"Contact"} HeadingAfterColor={"text-white"} />
       {/* <div className='ContactMePage___Heading'>
@@ -62,12 +62,13 @@ const onSubmit = async (event: any) => {
             
             <div className='mt-[3rem] flex gap-20 justify-center max-lg:flex-col max-lg:gap-10'>
                     <div>
-                       <h3 className='text-5xl max-lg:text-4xl max-lg:leading-12 max-xl:text-3xl tracking-widest leading-14 max-xl:leading-11'><span className='font-semibold text-white'>Let's Talk for</span> 
+                       <h3 className='text-5xl max-lg:text-4xl  max-lg:leading-12 max-xl:text-3xl tracking-widest leading-14 max-xl:leading-11'><span className='font-semibold text-white'>Let's Talk for</span> 
                         <span className='text-[#FD853A] italic font-light'> Your <br className='max-lg:hidden'/>
                        Next Project </span></h3>   
                         
                        <div className='text-white '>   
-                        <ul className=' text-[20px] max-sm:text-[18px] max-sm:gap-3 mt-[1.5rem] max-lg:grid max-lg:grid-cols-2 max-lg:text-[1.3rem] max-lg:gap-6 max-sm:grid-cols-1'>
+                        <ul className=' text-[20px] max-sm:text-[18px] max-sm:gap-3 max-md:gap-1.5
+                        mt-[1.5rem] max-lg:grid max-lg:grid-cols-2 max-lg:text-[1.3rem] max-lg:gap-6 max-sm:grid-cols-1'>
                           <li className='flex items-center  mb-[1rem] max-sm:mb-[0.3rem]'>
                         <span  className=' p-[8px] rounded-full text-[1.2rem] mr-[10px]  bg-[#FD853A]'><ImPhone className='text-[#344E41]' /></span>    (+234) 8137713110
                           </li>

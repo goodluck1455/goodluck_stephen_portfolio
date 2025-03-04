@@ -14,15 +14,11 @@ export default function Work() {
 
 
 
-      <div className=" mt-[0rem] ml-[4rem] mr-[4rem] mb-[2.5rem] max-sm:ml-[1rem] max-sm:mr-[1rem]" id="work">
+      <div className=" mt-[0rem] ml-[4rem] mr-[4rem] mb-[2.5rem] max-md:ml-[2rem] max-md:mr-[2rem] max-md:h-auto max-md:pb-[1rem] max-sm:ml-[1rem] max-sm:mr-[1rem]" id="work">
 
 
        <HeadingPage HeadingName={"Work & Education "} HeadingAfterColor={"text-[#FD853A]"}/>
-      {/* <div className='ContactMePage___Heading '>
-            <h3 className='text-[#FD853A] text-3xl font-stretch-50%'>
-              Work & Education 
-              </h3>
-        </div>  */}
+      
 
 
             <div className="text-center  text-3xl mt-8">

@@ -18,9 +18,9 @@ export default function MobileNavbar({setOpenNav, openNav}:MobileNavbar) {
              initial={{opacity:0, y:-100}}
              animate={{opacity:1, y:0}}
               exit={{opacity:0, y:-100}}
-           className= "hidden  absolute max-sm:block" >
+           className= "hidden  absolute w-full left-0 right-0 max-sm:block max-lg:block max-md:block" >
 
-            <div className="bg-[#344E41] p-4 w-full max-lg:block rounded-bl-[10px] rounded-br-[10px] ">
+            <div className="bg-[#344E41] p-4 ml-[3rem] mr-[3rem]  rounded-bl-[10px] rounded-br-[10px] ">
              
              <div className="">             
                            <nav>
