@@ -7,25 +7,26 @@
     }
 
 
-.AboutMePage___container{
+/* .AboutMePage___container{
     background-color: var(--firsColorDarkgreen);
     height: auto;
     padding-bottom: 10px;
-}
+} */
 
 
 
-    .AboutMePage___ContainerB{
+    /* .AboutMePage___ContainerB{
         margin: 2rem 4rem 2rem 4rem;
-    }
+    } */
 
-    .AboutMePage___Heading h3{
+    /* .AboutMePage___Heading h3{ */
         /* margin-top: 9rem; */
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
         /* font-size: 19px; */
-        position: relative;
-    }
-    .AboutMePage___Heading h3::before{
+        /* position: relative;
+    } */
+     
+    /* .AboutMePage___Heading h3::before{
         position: absolute;
         content: "";
         width: 1%;
@@ -36,7 +37,7 @@
         left: -22px;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-    }
+    } */
 
     .AboutMePage___Heading h3::after{
         position: absolute;
@@ -54,60 +55,60 @@
 
 
 
-    .AboutMe___portfolioContainer{
+    /* .AboutMe___portfolioContainer{
     
-     /* margin-top: 2rem; */
+     margin-top: 2rem;
      margin: 0.5rem 10rem 2rem 10rem;
   
-    }
+    } */
 
-    .AboutMe__Image{
-        /* margin-left: 5rem; */
-        /* margin-right: 5px; */
+    /* .AboutMe__Image{
+        margin-left: 5rem; 
+         margin-right: 5px;
         width: 90%;
-    }
-    .portFolio__infor{
+    } */
+
+    /* .portFolio__infor{
         margin-top: 1.5rem;
         
-    }
+    } */
 
-    .AboutMe___profilInfo p{
-          text-align: justify;
-          margin-top: 20px;
+    /* .AboutMe___profilInfo p{
+          text-align: justify; */
+          /* margin-top: 20px; */
           /* width: 80%; */
-    }
+    /* } */
 
    
-    .AboutMe__btn__container{
+    /* .AboutMe__btn__container{
         position: relative;
         margin-top: 3rem;
         cursor: pointer;
         font-size: 14px;
-        /* padding: 5px; */
+        padding: 5px;
         
-      }
+      } */
       
-      .AboutMe__btn__container::after{
+      /* .AboutMe__btn__container::after{
           position: absolute;
           content: "";
           width: 25%;
           height: 2.3rem;
-          /* padding: 10px; */
+         
           background-color: var(--SecondColorYellow);
           border-radius: 30px;
           z-index: 0;
           top: -2px;
-          /* bottom: 2px; */
-      }
+      } */
 
     .AboutMePAge__button{
         padding: 4px;
-    /* text-align: center; */
+ 
     font-size: 17px;
     height: auto;
     cursor: pointer;
     width: 20%;
-    /* height: 3rem; */
+ 
    text-align: center;
    z-index: 1;
     }

@@ -9,37 +9,11 @@
 
     .frontpage_name_container{
         margin: 2rem 4rem 2rem 4rem;
-        background-color: white;
+        /* background-color: white; */
     }
 
 
-.portfolio_frontpage_name{
-    /* font-family: "Roboto", serif; */
-    font-size: 2.5rem;
-    width: 40%;
-    margin-top: 12rem;
-}
 
-
-
-
-.frontPage_name{
-    color: var(--SecondColorYellow);
-    /* font-weight: bold; */
-    /* text-decoration: underline; */
-    font-style: italic;
-    padding: 5px;
-    position: relative;
-}
-.frontPage_name::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 3%;
-    background-color: var(--SecondColorYellow);
-    left: 0;
-    bottom: 0;
-}
 
 
 
@@ -55,43 +29,14 @@
 .frontPage___picture{
     margin-top: 4px;
 }
-.frontPage__btn__container{
-  position: relative;
-  margin-top: 2rem;
-  cursor: pointer;
-}
 
-.frontPage__btn__container::after{
-    position: absolute;
-    content: "";
-    width: 38%;
-    height: 100%;
-    background-color: var(--SecondColorYellow);
-    border-radius: 30px;
-    z-index: 0;
-}
+
+
 
 
 .frontPage__arrowIcon{
-    z-index: 1;
+    z-index: 1; 
 }
 
-.frontpage__button, .frontpage__button_B{
-    padding: 4px;
-    /* text-align: center; */
-    font-size: 20px;
-    height: auto;
-    cursor: pointer;
-    width: 30%;
-    /* height: 3rem; */
-   text-align: center;
-   z-index: 1;
-}
-
-.frontpage__button_B{
-    width: 20%;
-    margin-left:1rem;
-    
-}
 
 

@@ -47,9 +47,9 @@
 }
 
 
-.Contact___FormContainer{
+/* .Contact___FormContainer{
     margin-top: 3rem;
-}
+} */
 
 .Contact__phone{
     padding: 8px;
@@ -57,19 +57,11 @@
     font-size: 1.2rem;
     margin-right: 10px;
 }
-.contact__ulList li{
+/* .contact__ulList li{
     font-size: 20px;
     margin-top: 1.5rem;
-}
-.Contact__input{
-    border-radius: 10px;
-    width: 16rem;
-    height: 2.8rem;
-    outline: none;
-    /* border: 1px solid #DEE2E6; */
-    padding: 20px;
-    /* font-size: 0.9rem; */
-}
+} */
+
 .Contact__input:focus{
     border: 1px solid var(--firsColorDarkgreen);
 }
@@ -77,10 +69,10 @@
 .conntact__label{
     font-size: 1.4rem;
 }
-.Contact__input__select_btn {
+/* .Contact__input__select_btn {
   padding: 10px;
  
-}
+} */
 
 .Contact__input__textarea{
     border-radius: 10px;

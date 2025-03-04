@@ -1,12 +1,47 @@
 @import "tailwindcss";
 
-*{
-  /* margin: 0; */
+/* *{
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
+
+
 
 body{
   /* background-color: #FDF8E1; */
   background-color: #FFFFFF;
+}
+/* html {
+  scroll-padding-top: 200px;
+} */
+
+@layer utilities {
+  html {
+    scroll-padding-top: 100px;
+  }
+
+  @media (max-width: 1024px) { /* Tablets */
+    .scroll-padding-top {
+      scroll-padding-top: 110px;
+    }
+  }
+
+  @media (max-width: 768px) { /* Small tablets & large phones */
+    .scroll-padding-top {
+      scroll-padding-top: 120px;
+    }
+  }
+
+  @media (max-width: 640px) { /* Mobile devices */
+    .scroll-padding-top {
+      scroll-padding-top: 130px;
+    }
+  }
+
+  @media (max-width: 480px) { /* Smaller mobile screens */
+    html {
+      scroll-padding-top: 50px;
+    }
+  }
 }
