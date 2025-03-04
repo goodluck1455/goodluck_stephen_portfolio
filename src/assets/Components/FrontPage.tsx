@@ -36,13 +36,17 @@ export default function FrontPage() {
 
          
 
-            <div className='after:absolute  after:bg-[#FD853A] after:w-[38%] max-xl:after:w-[44%] max-sm:after:w-[46%] max-2xl:after:w-[49%] max-xl:after:left-13 after:h-full place-items-center
+            <div className='after:absolute  after:bg-[#FD853A] after:w-[38%] 
+             max-xl:after:w-[44%] max-sm:after:w-[9rem] max-sm:after:left-[1.5rem] max-2xl:after:w-[49%] max-xl:after:left-13
+              after:h-full max-sm:after:h-[2rem] place-items-center 
             after:rounded-[30px] after:z-0 relative mt-[2rem] cursor-pointer flex rounded-[30px] max-xl:justify-center'>
-            <button className='p-[4px] text-[20px] max-sm:p-[2px] max-sm:text-[18px] h-[3rem] cursor-pointer w-[30%] max-sm:w-[50%] max-2xl:w-[40%]  max-xl:w-[35%] z-10 items-center rounded-[30px] 
+            <button className='p-[4px] text-[20px] max-sm:p-[1px] max-sm:h-[2rem] max-sm:text-[16px] h-[3rem] cursor-pointer 
+            w-[30%] max-sm:w-[8rem] max-2xl:w-[40%]  max-xl:w-[35%] z-10 items-center rounded-[30px] 
             text-white bg-[#344E41]'>
               View my Github</button> <IoMdArrowDroprightCircle  className='frontPage__arrowIcon text-[white]'/>
 
-              <button className='ml-[1rem] max-xl:ml-10 text-[20px] max-sm:text-[15px] h-[3rem] cursor-pointer w-[20%] max-sm:w-[30%] max-2xl:w-[25%] z-10  rounded-[30px]  max-xl:w-[25%]  
+              <button className='ml-[1rem] max-xl:ml-10 text-[20px] max-sm:text-[16px] h-[3rem] cursor-pointer w-[20%] 
+              max-sm:w-[8rem] max-sm:h-[2rem] max-2xl:w-[25%] z-10  rounded-[30px]  max-xl:w-[25%]  
               text-[#344E41] border-[#344E41] border-2'>
               Hire Me</button>
           </div>
