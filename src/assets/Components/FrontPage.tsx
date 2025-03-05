@@ -1,5 +1,6 @@
 import '/src/css-folder/FrontPage.css';
 import { IoMdArrowDroprightCircle } from "react-icons/io";
+// import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
 import {fadeIn} from "../Components/Animation"
 
@@ -24,7 +25,7 @@ export default function FrontPage() {
             <p>Hi👋</p>
           <h4>I'm <span className='relative p-[5px] italic
           before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%]'>Goodluck Stephen </span></h4>
-          <p className='text-5xl max-sm:text-2xl'>Frontend Developer</p>
+          <p className='text-5xl max-sm:text-2xl '>Frontend Developer</p>
           <p className='text-5xl max-sm:text-2xl'>Base in Lagos, Nigeria</p>
           <div className='mt-[1.3rem]'>
             <p className=' text-[18px] max-sm:text-[16px] leading-[28px] max-sm:leading-[20px] '>I’m a passionate front-end developer skilled 
@@ -34,22 +35,35 @@ export default function FrontPage() {
           </div>
 
 
-         
+              {/* this particular section is trying to be stubborn  */}
+                <div className='flex items-center mt-[2rem] max-xl:justify-center max-sm:flex-col'>  
+             <div className='  bg-[#FD853A]  gap-1
+             place-items-center  max-sm:w-full
+              cursor-pointer flex rounded-[30px]'>
+              
+              <div className='max-sm:w-full'>
 
-            <div className='after:absolute  after:bg-[#FD853A] after:w-[38%] 
-             max-xl:after:w-[44%] max-sm:after:w-[9rem] max-sm:after:left-[1.5rem] max-2xl:after:w-[49%] max-xl:after:left-13
-              after:h-full max-sm:after:h-[2rem] place-items-center 
-            after:rounded-[30px] after:z-0 relative mt-[2rem] cursor-pointer flex rounded-[30px] max-xl:justify-center'>
-            <button className='p-[4px] text-[20px] max-sm:p-[1px] max-sm:h-[2rem] max-sm:text-[16px] h-[3rem] cursor-pointer 
-            w-[30%] max-sm:w-[8rem] max-2xl:w-[40%]  max-xl:w-[35%] z-10 items-center rounded-[30px] 
-            text-white bg-[#344E41]'>
-              View my Github</button> <IoMdArrowDroprightCircle  className='frontPage__arrowIcon text-[white]'/>
+              
+            <button className='flex text-[20px] py-1 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
+            items-center rounded-[30px] text-white bg-[#344E41]'  >
+              View my Github </button> 
+              </div>
 
-              <button className='ml-[1rem] max-xl:ml-10 text-[20px] max-sm:text-[16px] h-[3rem] cursor-pointer w-[20%] 
-              max-sm:w-[8rem] max-sm:h-[2rem] max-2xl:w-[25%] z-10  rounded-[30px]  max-xl:w-[25%]  
+
+              <div>
+              <IoMdArrowDroprightCircle size={40} className='w-full z-20 text-[white]'/>
+              </div>
+              
+              </div>
+
+              <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
+              rounded-[30px] max-sm:mt-5 max-sm:w-full
               text-[#344E41] border-[#344E41] border-2'>
               Hire Me</button>
-          </div>
+
+              </div>
+          
+
 
               
 

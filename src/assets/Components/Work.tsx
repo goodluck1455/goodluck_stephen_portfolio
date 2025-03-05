@@ -14,7 +14,8 @@ export default function Work() {
 
 
 
-      <div className=" mt-[0rem] ml-[4rem] mr-[4rem] mb-[2.5rem] max-md:ml-[2rem] max-md:mr-[2rem] max-md:h-auto max-md:pb-[1rem] max-sm:ml-[1rem] max-sm:mr-[1rem]" id="work">
+      <div className=" mt-[0rem] ml-[4rem] mr-[4rem] mb-[2.5rem] max-md:ml-[2rem] max-md:mr-[2rem] max-xl:ml-[2rem] max-xl:mr-[2rem]
+          max-md:h-auto max-md:pb-[1rem] max-sm:ml-[1rem] max-sm:mr-[1rem]" id="work">
 
 
        <HeadingPage HeadingName={"Work & Education "} HeadingAfterColor={"text-[#FD853A]"}/>
@@ -37,18 +38,19 @@ export default function Work() {
               </div>
               <hr  className="Work__bottom-line"/>
 
-                <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px]  ">
+                <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] 
+                mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px]  ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
                 </div>
 
-                <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
+                <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer  mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
                 </div>
-                <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
+                <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer  mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
@@ -66,19 +68,19 @@ export default function Work() {
               </div>
               <hr  className="Work__bottom-line"/>
 
-              <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
+              <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
                 </div>
 
-                <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
+                <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
                 </div>
 
-                <div className="mt-[1.5rem] ml-[0.5rem] mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
+                <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
                   <p className="text-[#95979c]">2014 - 2025</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>

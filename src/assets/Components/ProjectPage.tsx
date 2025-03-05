@@ -23,9 +23,9 @@ interface ProjectPageProps {
  const ProjectPage: React.FC<ProjectPageProps> = () => {
   return (
     <>
-      <div className=" h-[70rem] bg-[#F5F3F4] max-lg:h-auto max-sm:h-auto max-sm:pb-4" id='project'>
+      <div className=" h-[70rem] bg-[#F5F3F4] max-lg:h-auto max-sm:h-auto max-sm:pb-4 " id='project'>
 
-            <div className=" mt-[2rem] ml-[4rem] mb-[2rem] mr-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem]">
+            <div className=" mt-[2rem] ml-[4rem] mb-[2rem] mr-[4rem] max-xl:ml-[2rem] max-xl:mr-[2rem] max-sm:ml-[1rem] max-sm:mr-[1rem]">
 
             <HeadingPage HeadingName={"Project"} HeadingAfterColor={"text-[#FD853A]"}/>
 

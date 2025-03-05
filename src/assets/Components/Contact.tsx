@@ -51,7 +51,7 @@ const onSubmit = async (event: any) => {
   return (
     <div className='contact__body bg-[#344E41] ' id='contact'>
       
-      <div className="mt-[0rem] ml-[4rem] max-md:ml-[2rem] max-md:mr-[2rem] mb-[2rem] mr-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem] ">
+      <div className="mt-[0rem] ml-[4rem] max-md:ml-[2rem] max-xl:ml-[2rem] max-xl:mr-[2rem] max-md:mr-[2rem] mb-[2rem] mr-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem] ">
 
           <HeadingPage HeadingName={"Contact"} HeadingAfterColor={"text-white"} />
       {/* <div className='ContactMePage___Heading'>
@@ -146,12 +146,34 @@ const onSubmit = async (event: any) => {
                     outline-none text-[white] border border-[#445A46] bg-[#445A46] w-full' required>
                     </textarea>
                     </div>
-                   
-                    <div className='contact__btn__container flex rounded-[30px] items-center gap-2'>
-                     <button className='AboutMePAge__button rounded-[30px] text-white bg-[#344E41]'>
+{/* 
+                    .contact__btn__container::after{
+      position: absolute;
+      content: "";
+      width: 28%;
+      height: 2.3rem;
+     
+      background-color: var(--SecondColorYellow);
+      border-radius: 30px;
+      z-index: 0;
+      top: -2px;
+      
+  } */}
+
+
+
+                    <div className=' relative mt-[1.5rem] cursor-pointer
+                    text-[14px] flex rounded-[30px] items-center gap-2 
+                    
+                    max-sm:after:w-[32%] max-sm:text-[18px]
+                    
+                    after:absolute after:w-[28%] after:h-[2.3rem] after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px]
+                    '>
+                     <button className='AboutMePAge__button rounded-[30px] max-sm:px-6 text-white bg-[#344E41]'>
                       Submit</button> <IoArrowForwardCircleSharp  size={30} className='AboutPage__arrowIcon  text-[white]'/>
             
                          </div>
+                         
                     </div>
 
                         <ToastContainer

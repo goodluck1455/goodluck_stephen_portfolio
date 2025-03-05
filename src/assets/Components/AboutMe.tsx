@@ -10,18 +10,13 @@ import HeadingPage from '../Reusableheading/HeadingPage';
 export default function AboutMe() {
   return (
     <>
-      <div className='AboutMePage___container bg-[#344E41] max-sm:overflow-hidden h-auto pb-[10px]' id='about' data-scroll>
+      <div className='AboutMePage___container bg-[#344E41] max-sm:overflow-hidden max-lg:overflow-hidden  h-auto pb-[10px]' id='about' data-scroll>
 
       <div className=" mt-[2rem] max-sm:mt-[0rem] ml-[4rem] mb-[2rem] mr-[4rem] max-xl:ml-[2rem] max-xl:mr-[1rem] max-sm:ml-[1rem]">
 
 
           <HeadingPage HeadingName={"About Me"} HeadingAfterColor={"text-white"}/>
-        {/* <div className=''>
-            <h3 className='text-white text-3xl pt-[1rem] relative before:absolute before:pr-[10px] before:top-0
-            before:rounded-bl-[10px] before:rounded-br-[10px] after:absolute after:w-[1%] after:rounded-full after:bg-[#FD853A]
-            after:bottom-0 after:left-[-22px] after:h-[20%] before:left-[-22px]
-            before:bg-[#FD853A] before:w-[1%] before:h-[75%] max-xl:ml-5'>About Me</h3>
-        </div> */}
+       
 
 
       <div className='flex gap-9 mt-[0.5rem] ml-[10rem] mr-[10rem] mb-[2rem] max-lg:flex-col
@@ -38,7 +33,7 @@ export default function AboutMe() {
         </motion.div>
 
         <motion.div 
-         variants={fadeIn("left", 0.3)}
+         variants={fadeIn("left", 0.3, "zoom")}
          initial="hidden"
          whileInView={"show"}
         
