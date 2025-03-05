@@ -4,6 +4,7 @@ import {  MdEmail as Email } from "react-icons/md";
 import { FaXTwitter  as Twitter} from "react-icons/fa6";
 import { IoLocation as Location } from "react-icons/io5";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
+// import { IoMdArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDown as FaChevronDown } from "react-icons/io";
 // import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -162,10 +163,40 @@ const onSubmit = async (event: any) => {
 
 
 
-                    <div className=' relative mt-[1.5rem] cursor-pointer
+
+
+
+{/* 
+                        stuborn button */}
+
+
+
+                         <div className='flex items-center mt-[2rem] '>  
+                                     <div className='  bg-[#FD853A]  gap-1 max-lg:pr-4
+                                     place-items-center  max-sm:w-full max-md:w-fit
+                                      cursor-pointer flex rounded-[30px]'>
+                                      
+                                      <div className='max-sm:w-full'>
+                        
+                                      
+                                    <button className='flex text-[20px] py-1 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
+                            max-sm:border-[#FD853A] max-sm:text-[1.7rem] max-sm:border max-md:text-[2rem]    max-md:px-3  max-md:py-1 max-lg:py-2 max-lg:px-6 max-lg:text-[2rem] items-center rounded-[30px] text-white bg-[#344E41]'  >
+                                      Submit</button> 
+                                      </div>
+                        
+                        
+                                      <div>
+                                      <IoArrowForwardCircleSharp size={40} className='w-full z-20 text-[white]'/>
+                                      </div>
+                                      
+                                      </div>
+                        
+                        
+                                      </div>
+                    {/* <div className=' relative mt-[1.5rem] cursor-pointer
                     text-[14px] flex rounded-[30px] items-center gap-2 
                     
-                    max-sm:after:w-[32%] max-sm:text-[18px] max-lg:after:h-full max-lg:py-[2px]
+                    max-sm:after:w-[32%] max-sm:text-[18px] max-lg:after:h-full max-lg:py-[2px] max-md:after:w-[33%]
                     
                     after:absolute after:w-[28%] after:h-[2.3rem] after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px]
                     '>
@@ -173,11 +204,14 @@ const onSubmit = async (event: any) => {
 
                      <button className='p-[4px] text-[17px] h-auto cursor-pointer w-[20%] 
                      items-center z-10 rounded-[30px] max-sm:px-6 text-white bg-[#344E41]
-                      max-lg:text-[2rem] max-lg:h-auto 
+                      max-lg:text-[2rem] max-lg:h-auto max-md:w-[2]
                      '>
                       Submit</button> <IoArrowForwardCircleSharp   className='z-10 text-3xl max-lg:text-5xl  text-[white]'/>
             
-                         </div>
+                         </div> */}
+
+
+
                          
                     </div>
 

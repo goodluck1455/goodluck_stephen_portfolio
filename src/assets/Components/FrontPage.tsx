@@ -12,7 +12,7 @@ export default function FrontPage() {
     <>
 
         <div className=' mt-[2rem] ml-[4rem] max-sm:ml-[2rem] mr-[4rem] max-sm:mr-[2rem] max-2xl:mr-[2rem] mb-[2rem] max-2xl:ml-[2rem] bg-white' id='home'>
-            <div className='flex justify-between max-xl:flex-col max-xl:items-center 2xl:justify-evenly max-xl:place-content-center'>
+            <div className='flex justify-between max-xl:flex-col max-xl:items-center  max-xl:place-content-center'>
         
         <motion.div 
          variants={fadeIn("right", 0.2)}
@@ -44,7 +44,7 @@ export default function FrontPage() {
               <div className='max-sm:w-full'>
 
               
-            <button className='flex text-[20px] py-1 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
+            <button className='flex text-[20px] py-2 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
             items-center rounded-[30px] text-white bg-[#344E41]'  >
               View my Github </button> 
               </div>
