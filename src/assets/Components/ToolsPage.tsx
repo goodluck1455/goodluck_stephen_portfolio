@@ -5,7 +5,7 @@ import ToolsComponent from "../Reusableheading/ToolsComponent";
 
 export default function ToolsPage() {
   return (
-    <div className=" h-auto pb-2.5 max-lg:h-auto max-sm:h-auto max-sm:pb-4 " id='toolsPage'>
+    <div className=" h-auto pb-2.5 max-lg:h-auto  max-sm:h-auto max-sm:pb-4 " id='toolsPage'>
       
       <div className=" mt-[0rem] ml-[4rem] mb-[2rem] mr-[4rem] max-xl:ml-[2rem] max-xl:mr-[2rem] max-sm:ml-[1rem] max-sm:mr-[1rem]">
 

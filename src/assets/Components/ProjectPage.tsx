@@ -23,7 +23,7 @@ interface ProjectPageProps {
  const ProjectPage: React.FC<ProjectPageProps> = () => {
   return (
     <>
-      <div className=" h-[70rem] bg-[#F5F3F4] max-lg:h-auto max-sm:h-auto max-sm:pb-4 " id='project'>
+      <div className=" h-[70rem] bg-[#F5F3F4] max-lg:h-auto max-lg:pb-[1rem] max-sm:h-auto max-sm:pb-4 " id='project'>
 
             <div className=" mt-[2rem] ml-[4rem] mb-[2rem] mr-[4rem] max-xl:ml-[2rem] max-xl:mr-[2rem] max-sm:ml-[1rem] max-sm:mr-[1rem]">
 
@@ -48,7 +48,7 @@ interface ProjectPageProps {
 
               </div>
 
-              <div className='flex gap-10 justify-center mt-10 max-lg:flex-col max-lg:items-center'>
+              <div className='flex gap-10 justify-center mt-10 max-lg:flex-col max-lg:mb-[3rem] max-lg:items-center'>
 
                 < ProjectDisplay projectName={" Advice Generator - Design by Frontend Mentor "} 
                 projectImage={'/advice-generator.png'} />
