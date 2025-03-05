@@ -12,7 +12,7 @@ export default function FrontPage() {
     <>
 
         <div className=' mt-[2rem] ml-[4rem] max-sm:ml-[2rem] mr-[4rem] max-sm:mr-[2rem] max-2xl:mr-[2rem] mb-[2rem] max-2xl:ml-[2rem] bg-white' id='home'>
-            <div className='flex justify-between max-xl:flex-col max-xl:items-center max-xl:place-content-center'>
+            <div className='flex justify-between max-xl:flex-col max-xl:items-center 2xl:justify-evenly max-xl:place-content-center'>
         
         <motion.div 
          variants={fadeIn("right", 0.2)}
@@ -20,7 +20,7 @@ export default function FrontPage() {
          whileInView={"show"}
         
         
-        className=' text-[2.5rem] max-sm:text-[1.5rem] w-[40%] mt-[12rem] max-sm:mt-[5rem] max-xl:w-fit max-sm:w-fit max-xl:text-center  max-xl:mt-[8rem]'>
+        className=' text-[2.5rem] 2xl:text-5xl max-sm:text-[1.5rem] w-[40%] mt-[12rem] max-sm:mt-[5rem] max-xl:w-fit max-sm:w-fit max-xl:text-center  max-xl:mt-[8rem]'>
           <div className='leading-14 max-sm:leading-12'>
             <p>Hi👋</p>
           <h4>I'm <span className='relative p-[5px] italic

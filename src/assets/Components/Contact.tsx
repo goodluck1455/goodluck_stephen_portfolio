@@ -165,12 +165,17 @@ const onSubmit = async (event: any) => {
                     <div className=' relative mt-[1.5rem] cursor-pointer
                     text-[14px] flex rounded-[30px] items-center gap-2 
                     
-                    max-sm:after:w-[32%] max-sm:text-[18px]
+                    max-sm:after:w-[32%] max-sm:text-[18px] max-lg:after:h-full max-lg:py-[2px]
                     
                     after:absolute after:w-[28%] after:h-[2.3rem] after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px]
                     '>
-                     <button className='AboutMePAge__button rounded-[30px] max-sm:px-6 text-white bg-[#344E41]'>
-                      Submit</button> <IoArrowForwardCircleSharp  size={30} className='AboutPage__arrowIcon  text-[white]'/>
+
+
+                     <button className='p-[4px] text-[17px] h-auto cursor-pointer w-[20%] 
+                     items-center z-10 rounded-[30px] max-sm:px-6 text-white bg-[#344E41]
+                      max-lg:text-[2rem] max-lg:h-auto 
+                     '>
+                      Submit</button> <IoArrowForwardCircleSharp   className='z-10 text-3xl max-lg:text-5xl  text-[white]'/>
             
                          </div>
                          

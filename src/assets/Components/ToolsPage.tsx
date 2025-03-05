@@ -18,7 +18,7 @@ export default function ToolsPage() {
         
         <div className="w-fit mx-auto ">
 
-        <div className="grid grid-cols-4 gap-16  max-lg:gap-5 max-sm:grid-cols-2 ">
+        <div className="grid grid-cols-4 gap-16  max-lg:gap-5 max-sm:grid-cols-2 max-md:grid-cols-3">
         <ToolsComponent Image={"/html.png"} Name={"HTML"} percentage={"100%"} />
         <ToolsComponent Image={"/react.png"} Name={"REACT JS"} percentage={"91%"}/>
         <ToolsComponent Image={"/typescript.png"} Name={"Typescript"} percentage={"98%"}/>

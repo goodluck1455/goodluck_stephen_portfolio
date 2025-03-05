@@ -30,7 +30,7 @@ export default function Work() {
           <div className="flex justify-center gap-5 max-sm:flex-col">
             
             <div className=" w-[30rem] h-[30rem] max-sm:w-full max-sm:h-auto
-            border border-[#E1E1E2]
+            border border-[#E1E1E2] max-md:h-auto
             rounded-[10px] mt-[2rem] bg-[#F5F5F5]">
               <div className="flex">
               <span className='Work__Logo bg-[#FD853A]'><FaGraduationCap /></span>
@@ -60,7 +60,7 @@ export default function Work() {
 
 
             <div className="w-[30rem] h-[30rem] max-sm:w-full max-sm:h-auto
-            border border-[#E1E1E2]
+            border border-[#E1E1E2] max-md:h-auto
             rounded-[10px] mt-[2rem] bg-[#F5F5F5]">
             <div className="flex">
               <span className=' Work__Logo bg-[#FD853A]'>  <FaBriefcase /> </span>
