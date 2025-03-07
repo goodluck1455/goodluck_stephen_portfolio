@@ -39,7 +39,9 @@ export default function Header() {
 
   return (
     <>
-      <div className={`fixed w-screen transition-all duration-300 z-50 ${scrolled ? "bg-[#344E41]/70 backdrop-blur-md translate-y-0  top-0  h-fit max-lg:h-auto":""}`}>
+      <div className={`fixed w-screen transition-all duration-300 z-50 
+        ${scrolled ? "bg-[#344E41]/70 backdrop-blur-md translate-y-0  top-0  h-fit max-lg:h-auto":""} 
+        ${openNav && "bg-[#344E41]/70 backdrop-blur-md translate-y-0  top-0 pt-5  h-fit max-lg:h-auto"}`}>
          <div className={`bg-[#344E41] p-[10px] ${scrolled && "mt-[1rem] mb-0"}
          mt-[0rem] ml-[4rem] max-sm:ml-[1rem] max-sm:mr-[1rem] max-2xl:ml-[2rem] mb-[2rem] max-lg:mb-0 mr-[4rem] max-2xl:mr-[2rem]  rounded-[20px] 
          text-white flex justify-between place-content-center max-lg:items-center`}>

@@ -96,7 +96,7 @@ const onSubmit = async (event: any) => {
                     {/* <div>{result}</div> */}
                     {/* First line of inputs */}
                    
-                    <div className='flex gap-6 max-lg:w-full' >
+                    <div className='flex gap-6 max-lg:w-full max-sm:flex-col' >
                         
                         <div className='max-lg:w-full'>
                         <label htmlFor="text" className='text-[18px] text-white font-normal'>Name *</label> <br />
@@ -113,7 +113,7 @@ const onSubmit = async (event: any) => {
 
                   {/* second line of inputs tags */}
 
-                    <div className='flex gap-6 mt-5' >
+                    <div className='flex gap-6 mt-5 max-sm:flex-col' >
                         <div className='max-lg:w-full'>
                         <label htmlFor="text" className='text-[18px] text-white '>Phone *</label> <br />
                         <input type="number" name='number' placeholder='Enter phone number' className='w-[16rem] max-lg:w-full
@@ -180,7 +180,7 @@ const onSubmit = async (event: any) => {
                         
                                       
                                     <button className='flex text-[20px] py-1 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
-                            max-sm:border-[#FD853A] max-sm:text-[1.7rem] max-sm:border max-md:text-[2rem]    max-md:px-3  max-md:py-1 max-lg:py-2 max-lg:px-6 max-lg:text-[2rem] items-center rounded-[30px] text-white bg-[#344E41]'  >
+                            max-sm:border-[#FD853A] max-sm:text-[1.2rem] max-sm:border max-md:text-[2rem]    max-md:px-3  max-md:py-1 max-lg:py-2 max-lg:px-6 max-lg:text-[2rem] items-center rounded-[30px] text-white bg-[#344E41]'  >
                                       Submit</button> 
                                       </div>
                         

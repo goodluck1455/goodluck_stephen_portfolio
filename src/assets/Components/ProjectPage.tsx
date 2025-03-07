@@ -36,10 +36,10 @@ interface ProjectPageProps {
 
               <div className='flex  gap-10 justify-center mt-10 max-lg:flex-col max-lg:items-center '>
               < ProjectDisplay projectName={" Advice Generator -  "} 
-                      projectImage={'/advice-generator.png'} />
+                      projectImage={'/advice-generator.png'} projectLink={""}/>
 
                      < ProjectDisplay projectName={" Advice Generator - Frontend Mentor"} 
-                     projectImage={'/foot-wears-002.png'} />
+                     projectImage={'/foot-wears-002.png'} projectLink={""}/>
 
                      {/* < ProjectDisplay projectName={" My Portfolio web site - Landing Page"} 
                      projectImage={"bg-[url('/portfolio-web.png')]"} /> */}
@@ -50,11 +50,11 @@ interface ProjectPageProps {
 
               <div className='flex gap-10 justify-center mt-10 max-lg:flex-col max-lg:mb-[3rem] max-lg:items-center'>
 
-                < ProjectDisplay projectName={" Advice Generator - Design by Frontend Mentor "} 
-                projectImage={'/advice-generator.png'} />
+                < ProjectDisplay projectName={"Lapo Web App Dashboard "} 
+                projectImage={'/lapoWebApp.png'} projectLink={"https://stephen-lapo-web-app.netlify.app/"} />
 
                 < ProjectDisplay projectName={" My Portfolio web site - Landing Page Design"} 
-                projectImage={'/portfolio-web.png'} />
+                projectImage={'/portfolio-web.png'} projectLink={""} />
 
                 </div>
 

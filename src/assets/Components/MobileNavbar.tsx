@@ -20,15 +20,15 @@ export default function MobileNavbar({setOpenNav, openNav}:MobileNavbar) {
               exit={{opacity:0, y:-100}}
            className= "hidden  absolute w-full left-0 right-0 max-sm:block max-lg:block max-md:block" >
 
-            <div className="bg-[#344E41] p-4 ml-[3rem] mr-[3rem]  rounded-bl-[10px] rounded-br-[10px] ">
+            <div className="bg-[#344E41] p-4   rounded-bl-[10px] rounded-br-[10px] ">
              
              <div className="">             
                            <nav>
-                         <ul className=' text-white  text-center'>
+                         <ul className=' text-white  text-center text-2xl'>
                      <HashLink smooth to="#home" ><li className="mb-4" onClick={()=>setOpenNav(false)}>Home</li></HashLink> 
                      <HashLink smooth to="#about"> <li className="mb-4" onClick={()=>setOpenNav(false)}>About</li> </HashLink> 
-                     <HashLink smooth to="#work">      <li className="mb-4">Work</li> </HashLink> 
-                     <HashLink smooth to="#project">     <li className="mb-4">Project</li> </HashLink> 
+                     <HashLink smooth to="#work">      <li className="mb-4" onClick={()=>setOpenNav(false)}>Work</li> </HashLink> 
+                     <HashLink smooth to="#project">     <li className="mb-4" onClick={()=>setOpenNav(false)}>Project</li> </HashLink> 
                          </ul>
                          </nav>
        
@@ -39,7 +39,7 @@ export default function MobileNavbar({setOpenNav, openNav}:MobileNavbar) {
        
                                    <HashLink smooth to="#contact" >   
                           <div className=' bg-white rounded-[15px] cursor-pointer pt-[0px] pl-[20px] pb-[0px] p-[20px] text-center w-fit'>
-                         <p className='text-[#344E41] font-bold text-[1rem] '>Contact Me</p>
+                         <p className='text-[#344E41] font-bold text-[1.3rem] ' onClick={()=>setOpenNav(false)}>Contact Me</p>
                        </div>
                        </HashLink> 
        

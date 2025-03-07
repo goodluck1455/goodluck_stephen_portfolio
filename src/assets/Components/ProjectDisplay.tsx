@@ -7,11 +7,12 @@ import {fadeIn} from "../Components/Animation"
 interface ProjectDisplayProps {
     projectName: string;
     projectImage: string;
+    projectLink: string;
   }
 
 
 
-export default function ProjectDisplay({ projectName, projectImage }: ProjectDisplayProps) {
+export default function ProjectDisplay({ projectName, projectImage, projectLink }: ProjectDisplayProps) {
   return (
     <>
       
@@ -54,7 +55,8 @@ export default function ProjectDisplay({ projectName, projectImage }: ProjectDis
                             </div>      
                           
                           <div className='bg-[#344E41] flex items-center h-fit p-2  cursor-pointer rounded-full mr-3 max-sm:my-auto'>
-                          < ArrowRight  className=' project__right_arro text-[1.5rem]  text-white' />
+                    <a href={projectLink} target="_blank" rel="noopener noreferrer"> 
+                    < ArrowRight  className=' project__right_arro text-[1.5rem]  text-white' /> </a>  
                           </div>
                         
                              
