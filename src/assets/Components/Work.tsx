@@ -23,7 +23,7 @@ export default function Work() {
 
 
             <div className="text-center  text-3xl mt-8">
-           <h3> <span className="text-black font-bold ">My </span> <span className="italic text-[#FD853A]"> Academic  and <br /> Proffessional </span>
+           <h3> <span className="text-black font-bold ">My </span> <span className="italic text-[#FD853A]"> Academic  and <br /> Professional </span>
             <span className="text-black font-bold"> Journey </span></h3>
             </div>
 
