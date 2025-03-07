@@ -63,7 +63,7 @@ export default function FrontPage() {
 
               <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
               rounded-[30px] max-sm:mt-5 max-sm:w-full
-              text-[#344E41] border-[#344E41] border-2' id='contact'>
+              text-[#344E41] border-[#344E41] border-2'>
               Hire Me</button>
 
               </div>
