@@ -35,10 +35,10 @@ interface ProjectPageProps {
             </div>
 
               <div className='flex  gap-10 justify-center mt-10 max-lg:flex-col max-lg:items-center '>
-              < ProjectDisplay projectName={" Advice Generator -  "} 
+              < ProjectDisplay projectName={" Advice Generator - Frontend Mentor  "} 
                       projectImage={'/advice-generator.png'} projectLink={"https://advice-generator-goodluck-stephens-projects.vercel.app/"}/>
 
-                     < ProjectDisplay projectName={" Advice Generator - Frontend Mentor"} 
+                     < ProjectDisplay projectName={"Ecommerce website for Foot wears"} 
                      projectImage={'/foot-wears-002.png'} projectLink={"https://foot-wears-fashion-shop.netlify.app/"}/>
 
                      {/* < ProjectDisplay projectName={" My Portfolio web site - Landing Page"} 
@@ -53,7 +53,7 @@ interface ProjectPageProps {
                 < ProjectDisplay projectName={"Lapo Web App Dashboard "} 
                 projectImage={'/lapoWebApp.png'} projectLink={"https://stephen-lapo-web-app.netlify.app/"} />
 
-                < ProjectDisplay projectName={" My Portfolio web site - Landing Page Design"} 
+                < ProjectDisplay projectName={" My Portfolio web site "} 
                 projectImage={'/portfolio-web.png'} projectLink={"https://goodluck-stephen-portfolio.vercel.app/"} />
 
                 </div>
