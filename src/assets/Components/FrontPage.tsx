@@ -36,29 +36,34 @@ export default function FrontPage() {
 
 
               {/* this particular section is trying to be stubborn  */}
+              
                 <div className='flex items-center mt-[2rem] max-xl:justify-center max-sm:flex-col'>  
+                <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer">
              <div className='  bg-[#FD853A]  gap-1
              place-items-center  max-sm:w-full
               cursor-pointer flex rounded-[30px]'>
               
               <div className='max-sm:w-full'>
 
-              
+           
             <button className='flex text-[20px] py-2 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
             items-center rounded-[30px] text-white bg-[#344E41]'  >
               View my Github </button> 
+
               </div>
 
 
               <div>
-              <IoMdArrowDroprightCircle size={40} className='w-full z-20 text-[white]'/>
+            
+              <IoMdArrowDroprightCircle size={40} className='w-full z-20 text-[white]'/>  
               </div>
               
               </div>
+              </a> 
 
               <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
               rounded-[30px] max-sm:mt-5 max-sm:w-full
-              text-[#344E41] border-[#344E41] border-2'>
+              text-[#344E41] border-[#344E41] border-2' id='contact'>
               Hire Me</button>
 
               </div>
