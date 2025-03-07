@@ -127,7 +127,10 @@ const onSubmit = async (event: any) => {
                         rounded-[10px] h-[2.8rem] outline-none p-[10px] text-[white] border border-[#445A46]
                          focus:outline-none  bg-[#445A46]  w-[16rem]' >
                           <option value="Select" disabled> Select </option>
-                          <option value="Selectjbj"> Selecdcdct </option>
+                          <option value="Selectjbj"> $5 - 10$ </option>
+                          <option value="Selectjbj"> $10 - 20$ </option>
+                          <option value="Selectjbj"> $20 - 30$ </option>
+                          <option value="Selectjbj"> $40 - 50$ </option>
                         </select>
                         {/* Custom Dropdown Icon */}
 
