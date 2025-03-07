@@ -29,7 +29,7 @@ export default function Work() {
 
           <div className="flex justify-center gap-5 max-sm:flex-col">
             
-            <div className=" w-[30rem] h-[30rem] max-sm:w-full max-sm:h-auto
+            <div className=" w-[30rem] h-auto pb-2.5 max-sm:w-full max-sm:h-auto
             border border-[#E1E1E2] max-md:h-auto
             rounded-[10px] mt-[2rem] bg-[#F5F5F5]">
               <div className="flex">
@@ -40,26 +40,26 @@ export default function Work() {
 
                 <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] 
                 mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px]  ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
+                  <p className="text-[#95979c]">2021 - 2024</p>
                   <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
                   <p className="text-[#95979c]">HND(Computer Science)</p>
                 </div>
 
                 <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer  mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
-                  <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
-                  <p className="text-[#95979c]">HND(Computer Science)</p>
+                  <p className="text-[#95979c]">2020 </p>
+                  <h2 className="font-bold text-[18px]">IGHUB Developers and Netpreneurs Fellowship 4.0</h2>
+                  <p className="text-[#95979c]">Front-End Development</p>
                 </div>
                 <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer  mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
-                  <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
-                  <p className="text-[#95979c]">HND(Computer Science)</p>
+                  <p className="text-[#95979c]">2014 </p>
+                  <h2 className="font-bold text-[18px]">Trido Computer College</h2>
+                  <p className="text-[#95979c]">Diploma in Professional Computer Studies</p>
                 </div>
           
             </div>
 
 
-            <div className="w-[30rem] h-[30rem] max-sm:w-full max-sm:h-auto
+            <div className="w-[30rem] h-auto pb-2.5 max-sm:w-full max-sm:h-auto
             border border-[#E1E1E2] max-md:h-auto
             rounded-[10px] mt-[2rem] bg-[#F5F5F5]">
             <div className="flex">
@@ -69,21 +69,21 @@ export default function Work() {
               <hr  className="Work__bottom-line"/>
 
               <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
-                  <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
-                  <p className="text-[#95979c]">HND(Computer Science)</p>
+                  <p className="text-[#95979c]">2024 - </p>
+                  <h2 className="font-bold text-[18px]">SKILHAVEST</h2>
+                  <p className="text-[#95979c]">Frontend Dev </p>
                 </div>
 
                 <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
-                  <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
-                  <p className="text-[#95979c]">HND(Computer Science)</p>
+                  <p className="text-[#95979c]">2024 - till date</p>
+                  <h2 className="font-bold text-[18px]">Developia Discord Community</h2>
+                  <p className="text-[#95979c]">Frontend Dev - Volunteer</p>
                 </div>
 
                 <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2014 - 2025</p>
-                  <h2 className="font-bold text-[18px]">Yaba College of Technology </h2>
-                  <p className="text-[#95979c]">HND(Computer Science)</p>
+                  <p className="text-[#95979c]">2020</p>
+                  <h2 className="font-bold text-[18px]">IGHUB Developers and Netpreneurs Fellowship 4.0 </h2>
+                  <p className="text-[#95979c]">Frontend dev - Intern</p>
                 </div>
 
             </div>
