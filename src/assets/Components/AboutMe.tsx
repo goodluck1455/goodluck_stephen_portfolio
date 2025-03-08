@@ -54,7 +54,7 @@ export default function AboutMe() {
           <div className='flex gap-10 mt-[1.5rem] max-sm:gap-3.5'>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1 className='text-4xl text-[#FD853A]'>48+</h1>
+              <h1 className='text-4xl text-[#FD853A]'>50+</h1>
               <p className='text-white mt-[15px] max-sm:mt-[8px]'>Project Completed</p>
             </div>
 
@@ -64,7 +64,7 @@ export default function AboutMe() {
             </div>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1  className='text-4xl text-[#FD853A]'>48+</h1>
+              <h1  className='text-4xl text-[#FD853A]'>50+</h1>
               <p className='text-white mt-[15px] max-sm:mt-[8px]'>Project Completed</p>
             </div>
           </div>

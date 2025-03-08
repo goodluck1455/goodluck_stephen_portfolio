@@ -38,7 +38,7 @@ export default function FrontPage() {
               {/* this particular section is trying to be stubborn  */}
               
                 <div className='flex items-center mt-[2rem] max-xl:justify-center max-sm:flex-col'>  
-                <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
              <div className='  bg-[#FD853A]  gap-1
              place-items-center  max-sm:w-full
               cursor-pointer flex rounded-[30px]'>
@@ -60,12 +60,12 @@ export default function FrontPage() {
               
               </div>
               </a> 
-
+              <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
               <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
-              rounded-[30px] max-sm:mt-5 max-sm:w-full
+              rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0
               text-[#344E41] border-[#344E41] border-2'>
               Hire Me</button>
-
+              </a>
               </div>
           
 
