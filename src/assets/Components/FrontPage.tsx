@@ -60,7 +60,7 @@ export default function FrontPage() {
               
               </div>
               </a> 
-              <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
+              <a href="https://wa.me/2348137713110?text=Hello%2C%20I'm%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
               <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
               rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0
               text-[#344E41] border-[#344E41] border-2'>
