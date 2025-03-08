@@ -67,7 +67,7 @@ export default function FrontPage() {
               <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer 
               rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0 
               text-[#344E41] border-[#344E41] border-2'>
-              Hire Me</button>
+              WhatsApp me </button>
              
               </a>
               </div>
