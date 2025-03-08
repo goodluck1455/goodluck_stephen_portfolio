@@ -37,16 +37,16 @@ export default function FrontPage() {
 
               {/* this particular section is trying to be stubborn  */}
               
-                <div className='flex items-center mt-[2rem] max-xl:justify-center max-sm:flex-col'>  
+                <div className='flex items-center mt-[2rem] max-xl:justify-center max-sm:flex-col '>  
                 <a href="https://github.com/goodluck1455" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
              <div className='  bg-[#FD853A]  gap-1
              place-items-center  max-sm:w-full
               cursor-pointer flex rounded-[30px]'>
               
-              <div className='max-sm:w-full'>
+              <div className='max-sm:w-full items-center'>
 
            
-            <button className='flex text-[20px] py-2 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center
+            <button className='flex text-[20px] py-2 px-2 cursor-pointer max-sm:w-full  max-sm:justify-center 
             items-center rounded-[30px] text-white bg-[#344E41]'  >
               View my Github </button> 
 
@@ -60,11 +60,15 @@ export default function FrontPage() {
               
               </div>
               </a> 
-              <a href="https://wa.me/2348137713110?text=Hello%2C%20I'm%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" className='max-sm:w-full'>
-              <button className='ml-[1rem]  text-[20px]  py-1 px-3  cursor-pointer 
-              rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0
+              <a href="https://wa.me/2348137713110?text=Hello%2C%20I'm%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" className='max-sm:w-full flex items-center'>
+             
+
+             
+              <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer 
+              rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0 
               text-[#344E41] border-[#344E41] border-2'>
               Hire Me</button>
+             
               </a>
               </div>
           
