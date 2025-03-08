@@ -26,7 +26,7 @@ export default function FrontPage() {
           <h4>I'm <span className='relative p-[5px] italic
           before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%]'>Goodluck Stephen </span></h4>
           <p className='text-5xl max-sm:text-2xl '>Frontend Developer</p>
-          <p className='text-5xl max-sm:text-2xl'>Base in Lagos, Nigeria</p>
+          <p className='text-5xl max-sm:text-2xl'>Based in Lagos, Nigeria</p>
           <div className='mt-[1.3rem]'>
             <p className=' text-[18px] max-sm:text-[16px] leading-[28px] max-sm:leading-[20px] '>I’m a passionate front-end developer skilled 
              in creating <br className=' hidden max-xl:block max-sm:hidden'/> clean, responsive, and user-friendly web applications</p>

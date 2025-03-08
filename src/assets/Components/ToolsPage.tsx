@@ -19,17 +19,17 @@ export default function ToolsPage() {
         <div className="w-fit mx-auto ">
 
         <div className="grid grid-cols-4 gap-16  max-lg:gap-5 max-sm:grid-cols-2 max-md:grid-cols-3">
-        <ToolsComponent Image={"/html.png"} Name={"HTML"} percentage={"100%"} />
-        <ToolsComponent Image={"/react.png"} Name={"REACT JS"} percentage={"91%"}/>
-        <ToolsComponent Image={"/typescript.png"} Name={"Typescript"} percentage={"98%"}/>
-        <ToolsComponent Image={"/taildwindcss.png"} Name={"Taildwind css"} percentage={"97%"} />
+        <ToolsComponent Image={"/html.png"} Name={""} percentage={"HTML"} />
+        <ToolsComponent Image={"/react.png"} Name={""} percentage={"React Js"}/>
+        <ToolsComponent Image={"/typescript.png"} Name={""} percentage={"Typescript"}/>
+        <ToolsComponent Image={"/taildwindcss.png"} Name={""} percentage={"Tailwindcss"} />
 
 
 
-        <ToolsComponent Image={"/css3.png"} Name={"CSS3"} percentage={"100%"} />
-        <ToolsComponent Image={"/git.png"} Name={"GIT"} percentage={"91%"}/>
-        <ToolsComponent Image={"/javscript.png"} Name={"Javascript"} percentage={"98%"}/>
-        <ToolsComponent Image={"/github.png"} Name={"Github"} percentage={"97%"} />
+        <ToolsComponent Image={"/css3.png"} Name={""} percentage={"CSS3"} />
+        <ToolsComponent Image={"/git.png"} Name={""} percentage={"Git"}/>
+        <ToolsComponent Image={"/javscript.png"} Name={""} percentage={"Javascript"}/>
+        <ToolsComponent Image={"/github.png"} Name={""} percentage={"Github"} />
         </div>
         </div>
        
