@@ -1,7 +1,12 @@
 import { FaLongArrowAltRight as ArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import {fadeIn} from "../Components/Animation"
+import { FaGithub } from "react-icons/fa";
+import { RiShareBoxLine } from "react-icons/ri";
+import { useState } from "react";
+import { IoInformationCircle } from "react-icons/io5";
 
+// import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 // Define props type
 interface ProjectDisplayProps {
@@ -13,9 +18,17 @@ interface ProjectDisplayProps {
 
 
 export default function ProjectDisplay({ projectName, projectImage, projectLink }: ProjectDisplayProps) {
+            
+  const [visible, setVisible] = useState(false);
+  const [nvisible, setNvisible] = useState(false);
+
+
+
+
+
   return (
     <>
-      
+    
           <motion.div 
             variants={fadeIn("up", 0.3)}
             initial="hidden"
@@ -28,8 +41,51 @@ export default function ProjectDisplay({ projectName, projectImage, projectLink 
                   overflow-hidden   scale-100 hover:scale-102  transition duration-500` } >
                       <img src="/foot-wears.png" alt="project_display" className='rounded-2xl' />
                       </div> */}
-                      <div className="bg-[#F5F3F4]  w-full  h-[18rem]  overflow-hidden max-sm:h-[12rem]">
+                      <div className="relative bg-[#F5F3F4]  w-full  h-[18rem]  overflow-hidden group max-sm:h-[12rem]">
                       <img src={projectImage} alt="project_display" className='rounded-2xl object-cover  scale-100 hover:scale-102  transition duration-500' />
+                      
+                      <div className="absolute top-1/2 right-4 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition duration-300">
+                    
+               <a href="" target="_blank" rel="noopener noreferrer"
+                onMouseEnter={() => setVisible(true)}
+                onMouseLeave={() => setVisible(false)}
+               
+               >  
+               <div className="rounded-full bg-[#FD853A] p-2 w-fit mb-2"><FaGithub  className="text-white"/>  
+               </div></a> 
+             {visible && (
+                 <div className="absolute right-full top-2 text-center transform -translate-y-1/2 mr-4 w-50 py-1.5 bg-gray-900 rounded-lg shadow-lg text-sm text-gray-300">  
+                 <p className="">
+                   Available on request
+                 </p>
+                 <div className="absolute left-full top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-8 border-b-8 border-l-8 border-transparent border-l-gray-900"></div>
+               </div>
+             )}
+             
+             
+               <a href={projectLink} target="_blank" rel="noopener noreferrer"
+                  onMouseEnter={() => setNvisible(true)}
+                  onMouseLeave={() => setNvisible(false)}
+               > 
+                <div className="rounded-full bg-[#FD853A] p-2 w-fit mb-2"><RiShareBoxLine  className="text-white"/>  
+                </div> </a>  
+                {nvisible && (
+                 <div className="absolute right-full top-13 text-center transform -translate-y-1/2 mr-4 w-50 py-1.5 bg-gray-900 rounded-lg shadow-lg text-sm text-gray-300">  
+                 <p className="">
+                   Click to view the site
+                 </p>
+                 <div className="absolute left-full top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-8 border-b-8 border-l-8 border-transparent border-l-gray-900"></div>
+               </div>
+             )}
+             
+
+               
+                <a href={projectLink} target="_blank" rel="noopener noreferrer">   
+                <div className="rounded-full bg-[#FD853A] p-2 w-fit"><IoInformationCircle className="text-white"/>  
+                </div> </a> 
+                      
+                      </div>
+
                       </div>
 
                 
@@ -66,7 +122,7 @@ export default function ProjectDisplay({ projectName, projectImage, projectLink 
 
 
                     </motion.div>
-
+                
 
 
 

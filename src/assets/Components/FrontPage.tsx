@@ -3,7 +3,7 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 // import { IoArrowForwardCircleSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
 import {fadeIn} from "../Components/Animation"
-
+import { IoLogoWhatsapp } from "react-icons/io";
 
 
 
@@ -64,10 +64,10 @@ export default function FrontPage() {
              
 
              
-              <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer 
-              rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0 
+              <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer gap-1.5
+              rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0 flex items-center place-items-center
               text-[#344E41] border-[#344E41] border-2'>
-              WhatsApp me </button>
+              WhatsApp me <IoLogoWhatsapp className='text-green-500' />  </button>
              
               </a>
               </div>
