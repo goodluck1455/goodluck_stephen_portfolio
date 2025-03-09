@@ -60,11 +60,11 @@ export default function FrontPage() {
               
               </div>
               </a> 
-              <a href="https://wa.me/2348137713110?text=Hello%2C%20I'm%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" className='max-sm:w-full flex items-center'>
+              <a href="https://wa.me/2348137713110?text=Hello%2C%20I'm%20interested%20in%20your%20products" target="_blank" rel="noopener noreferrer" className='max-sm:w-full flex items-center '>
              
 
              
-              <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer gap-1.5
+              <button className='ml-[1rem]  text-[20px]  py-2 px-3  cursor-pointer gap-1.5 justify-center
               rounded-[30px] max-sm:mt-5 max-sm:w-full max-sm:ml-0 flex items-center place-items-center
               text-[#344E41] border-[#344E41] border-2'>
               WhatsApp me <IoLogoWhatsapp className='text-green-500' />  </button>
