@@ -8,6 +8,8 @@ import HeadingPage from '../Reusableheading/HeadingPage';
 
 
 export default function AboutMe() {
+const myCv = "/Stephen(Frontend Dev).pdf";
+
   return (
     <>
       <div className='AboutMePage___container bg-[#344E41] max-sm:overflow-hidden max-lg:overflow-hidden  h-auto pb-[10px]' id='about' data-scroll>
@@ -72,14 +74,17 @@ export default function AboutMe() {
     
 
 
-             
+            <a href={myCv}
+              download="Goodluck_Stephen_Frontend_Dev.pdf">
           <div className=' relative mt-[3rem] text-[14px] after:absolute after:w-[25%] after:max-sm:w-[9.8rem]
           after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px] max-xl:after:w-[26%]
           after:h-[2.3rem] cursor-pointer flex rounded-[30px] items-center gap-2 max-xl:gap-1.5 max-sm:gap-0'>
+           
             <button className='p-[4px]  text-[17px] h-auto cursor-pointer max-sm:px-2.5 max-sm:w-fit w-[20%] items-center z-10 rounded-[30px] text-white bg-[#344E41]'>
             Download CV</button> <IoArrowForwardCircleSharp  size={30} className='AboutPage__arrowIcon  text-[white]'/>
             
             </div>
+            </a> 
 
         </motion.div>
 
