@@ -21,10 +21,10 @@ export default function FrontPage() {
         
         
         className=' text-[2.5rem] 2xl:text-5xl max-sm:text-[1.5rem] w-[40%] mt-[12rem] max-sm:mt-[5rem] max-xl:w-fit max-sm:w-fit max-xl:text-center  max-xl:mt-[8rem]'>
-          <div className='leading-14 max-sm:leading-12'>
+          <div className='leading-16 max-sm:leading-12'>
             <p>Hi👋</p>
-          <h4>I'm <span className='relative p-[5px] italic
-          before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%]'>Goodluck Stephen </span></h4>
+          <h4 className='mb-2'>I'm <span className='relative p-[5px] italic
+          before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%] '>Uwem Stephen </span></h4>
           <p className='text-5xl max-sm:text-2xl '>Frontend Developer</p>
           <p className='text-5xl max-sm:text-2xl'>Based in Lagos, Nigeria</p>
           <div className='mt-[1.3rem]'>

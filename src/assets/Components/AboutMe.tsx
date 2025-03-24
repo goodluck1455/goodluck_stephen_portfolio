@@ -42,7 +42,7 @@ const myCv = "/Stephen(Frontend Dev).pdf";
         
         className=''>
           <div>
-            <p className='text-3xl'> <span className='font-bold text-white'>Who is</span> <span className='italic text-[#FD853A]'>Goodluck Stephen ?</span></p>
+            <p className='text-3xl'> <span className='font-bold text-white'>Who is</span> <span className='italic text-[#FD853A]'>Uwem Stephen ?</span></p>
           <p className='text-white mt-[5px] text-justify max-2xl:text-[18px]'>
           I’m a passionate front-end developer skilled in creating clean, responsive, 
           and user-friendly web applications. With a strong eye for design and functionality, 
@@ -75,7 +75,7 @@ const myCv = "/Stephen(Frontend Dev).pdf";
 
 
             <a href={myCv}
-              download="Goodluck_Stephen_Frontend_Dev.pdf">
+              download="Goodluck_Stephen_Frontend_Dev.pdf" >
           <div className=' relative mt-[3rem] text-[14px] after:absolute after:w-[25%] after:max-sm:w-[9.8rem]
           after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px] max-xl:after:w-[26%]
           after:h-[2.3rem] cursor-pointer flex rounded-[30px] items-center gap-2 max-xl:gap-1.5 max-sm:gap-0'>
