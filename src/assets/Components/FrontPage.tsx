@@ -24,7 +24,7 @@ export default function FrontPage() {
           <div className='leading-16 max-sm:leading-12'>
             <p>Hi👋</p>
           <h4 className='mb-2'>I'm <span className='relative p-[5px] italic
-          before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%] '>Uwem Stephen </span></h4>
+          before:left-0 before:bottom-0 before:bg-[#FD853A] text-[#FD853A] before:absolute before:w-full before:h-[3%] '>Goodluck Stephen </span></h4>
           <p className='text-5xl max-sm:text-2xl '>Frontend Developer</p>
           <p className='text-5xl max-sm:text-2xl'>Based in Lagos, Nigeria</p>
           <div className='mt-[1.3rem]'>

@@ -42,7 +42,7 @@ const myCv = "/Stephen(Frontend Dev).pdf";
         
         className=''>
           <div>
-            <p className='text-3xl'> <span className='font-bold text-white'>Who is</span> <span className='italic text-[#FD853A]'>Uwem Stephen ?</span></p>
+            <p className='text-3xl'> <span className='font-bold text-white'>Who is</span> <span className='italic text-[#FD853A]'>Goodluck Stephen ?</span></p>
           <p className='text-white mt-[5px] text-justify max-2xl:text-[18px]'>
           I’m a passionate front-end developer skilled in creating clean, responsive, 
           and user-friendly web applications. With a strong eye for design and functionality, 
