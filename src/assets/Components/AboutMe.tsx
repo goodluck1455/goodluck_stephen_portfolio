@@ -61,7 +61,7 @@ const myCv = "/Stephen(Frontend Dev).pdf";
             </div>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1 className='text-4xl text-[#FD853A]'>2+</h1>
+              <h1 className='text-4xl text-[#FD853A]'>3+</h1>
               <p className='text-white mt-[15px] max-sm:mt-[8px]'>Years of Experience</p>
             </div>
 
