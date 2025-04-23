@@ -11,12 +11,30 @@ import ProjectPage from './assets/Components/ProjectPage'
 import ToolsPage from './assets/Components/ToolsPage'
 import Work from './assets/Components/Work'
 import TawkMessenger from './assets/Utilities/Chat'
+import { Helmet } from "react-helmet";
 
 function App() {
 
 
   return (
     <>
+<Helmet>
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Goodluck Stephen",
+              "url": "https://goodluck-stephen-portfolio.vercel.app/",
+              "jobTitle": "Frontend Engineer",
+              "sameAs": [
+                "https://github.com/goodluck1455",
+                "https://linkedin.com/in/goodluck-stephen-427362126/"
+              ]
+            }
+          `}
+        </script>
+      </Helmet>
     <Header />
     <FrontPage />
     <AboutMe />
