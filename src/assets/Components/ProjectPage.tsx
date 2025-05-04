@@ -35,10 +35,10 @@ interface ProjectPageProps {
             </div>
 
               <div className='flex  gap-10 justify-center mt-10 max-lg:flex-col max-lg:items-center '>
-              < ProjectDisplay projectName={" Advice Generator - Frontend Mentor  "} 
-                      projectImage={'/advice-generator.png'} projectLink={"https://advice-generator-goodluck-stephens-projects.vercel.app/"}/>
+              < ProjectDisplay projectName={"Product Listing - Frontend Mentor  "} 
+                      projectImage={'/product-listing.jpg'} projectLink={"https://goodluck-product-listing.netlify.app/"}/>
 
-                     < ProjectDisplay projectName={"Ecommerce website for Foot wears"} 
+                     <ProjectDisplay projectName={"Ecommerce website for Foot wears"} 
                      projectImage={'/foot-wears-002.png'} projectLink={"https://foot-wears-fashion-shop.netlify.app/"}/>
 
                      {/* < ProjectDisplay projectName={" My Portfolio web site - Landing Page"} 
