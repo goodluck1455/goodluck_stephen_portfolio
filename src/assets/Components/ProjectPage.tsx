@@ -53,9 +53,9 @@ const ProjectPage: React.FC<ProjectPageProps> = () => {
 
           <div className="flex gap-10 justify-center mt-10 max-lg:flex-col max-lg:mb-[3rem] max-lg:items-center">
             <ProjectDisplay
-              projectName={"Lapo Web App Dashboard "}
-              projectImage={"/lapoWebApp.png"}
-              projectLink={"https://stephen-lapo-web-app.netlify.app/"}
+              projectName={"Dlex Dashboard "}
+              projectImage={"/dlex.png"}
+              projectLink={"https://goodluck-dlex-dashboarb.netlify.app/"}
             />
 
             <ProjectDisplay
