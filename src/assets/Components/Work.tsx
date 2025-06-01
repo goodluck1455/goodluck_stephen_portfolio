@@ -69,8 +69,8 @@ export default function Work() {
               <hr  className="Work__bottom-line"/>
 
               <div className="mt-[1.5rem] ml-[1.5rem] hover:scale-101 hover:border-[#FD853A] cursor-pointer mb-[0.8rem] mr-[2rem] p-[10px] border-l-[6px] border-[#d0d2d6] rounded-tl-[10px] rounded-bl-[10px] ">
-                  <p className="text-[#95979c]">2024 - </p>
-                  <h2 className="font-bold text-[18px]">SKILHAVEST</h2>
+                  <p className="text-[#95979c]">2025 - till date</p>
+                  <h2 className="font-bold text-[18px]">Fixeroni </h2>
                   <p className="text-[#95979c]">Frontend Dev </p>
                 </div>
 

@@ -86,7 +86,7 @@ export default function FrontPage() {
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView={"show"}
-        className='mt-[4px] max-sm:mt-5'>
+        className='mt-[4px] max-sm:mt-5'> 
             <img src="/portfolio design 002.png" alt="Developers Picture" 
             className="w-full h-auto max-xl:w-min max-2xl:w-fit max-sm:hidden" loading="lazy" />
             <img src="/portfolio_picture.png" alt="Developers Picture"
