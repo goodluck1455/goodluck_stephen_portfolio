@@ -67,7 +67,7 @@ const {setMorePoroject} = useProjectStore()
               />
 
               <ProjectDisplay
-                projectName={"Bookmark Landing Page - Fronted Mentor "}
+                projectName={"Bookmark Landing Page - Frontend Mentor "}
                 projectImage={"/bookmark_Landing_Page.png"}
                 projectLink={
                   "https://goodluck-bookmarklandingpage.netlify.app/"
