@@ -61,9 +61,9 @@ const {setMorePoroject} = useProjectStore()
           <section className="mb-10">
             <div className="flex gap-10 justify-center mt-10 max-lg:flex-col max-lg:mb-[1rem] max-lg:items-center">
               <ProjectDisplay
-                projectName={"Fixeroni Website - Community Project "}
-                projectImage={"/community_project.png"}
-                projectLink={""}
+                projectName={"Country Rest API - Frontend Mentor "}
+                projectImage={"/country-rest-api.png"}
+                projectLink={"https://goodluck-country-rest-api.netlify.app/"}
               />
 
               <ProjectDisplay
