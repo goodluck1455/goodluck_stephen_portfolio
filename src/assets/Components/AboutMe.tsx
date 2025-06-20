@@ -8,7 +8,7 @@ import HeadingPage from '../Reusableheading/HeadingPage';
 
 
 export default function AboutMe() {
-const myCv = "/Stephen(Frontend Dev).pdf";
+const myCv = "/Stephen(Frontend Dev).pd";
 
   return (
     <>
@@ -30,7 +30,7 @@ const myCv = "/Stephen(Frontend Dev).pdf";
         initial="hidden"
         whileInView={"show"}
 
-      className="w-full h-auto max-xl:my-auto max-lg:flex max-lg:justify-center" >
+      className="w-full h-auto max-xl:my-auto max-lg:flex max-lg:justify-center max-sm:hidden" >
           <img src="/portfolio_picture.png" alt="" className='object-cover' loading="lazy"/>
         </motion.div>
 
@@ -66,8 +66,8 @@ const myCv = "/Stephen(Frontend Dev).pdf";
             </div>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1  className='text-4xl text-[#FD853A]'>50+</h1>
-              <p className='text-white mt-[15px] max-sm:mt-[8px]'>Project Completed</p>
+              <h1  className='text-4xl text-[#FD853A]'>5+</h1>
+              <p className='text-white mt-[15px] max-sm:mt-[8px]'>Happy Clients</p>
             </div>
           </div>
 

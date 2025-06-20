@@ -2,7 +2,7 @@ import '/src/css-folder/Contact.css';
 import { ImPhone } from "react-icons/im";
 import {  MdEmail as Email } from "react-icons/md";
 import { FaXTwitter  as Twitter} from "react-icons/fa6";
-import { IoLocation as Location } from "react-icons/io5";
+// import { IoLocation as Location } from "react-icons/io5";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 // import { IoMdArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDown as FaChevronDown } from "react-icons/io";
@@ -82,9 +82,9 @@ const onSubmit = async (event: any) => {
                             </a>
                           
                           </li>
-                          <li className='flex max-lg:ml-[-4rem] items-center max-sm:ml-[0rem]'>
-                          <span className=' p-[8px] rounded-full text-[1.2rem] mr-[10px]  bg-[#FD853A]'><Location className='text-[#344E41]'  /></span>Lagos, Nigeria
-                          </li>
+                          {/* <li className='flex max-lg:ml-[-4rem] items-center max-sm:ml-[0rem]'>
+                          <span className=' p-[8px] rounded-full text-[1.2rem] mr-[10px]  bg-[#FD853A]'><Location className='text-[#344E41]'  /></span> 
+                          </li> */}
                         </ul>
                        </div>
 
@@ -111,9 +111,9 @@ const onSubmit = async (event: any) => {
                         </div>  
                     </div>
 
-                  {/* second line of inputs tags */}
+                  {/* second line of inputs tags */} 
 
-                    <div className='flex gap-6 mt-5 max-sm:flex-col' >
+                    <div className='flex gap-6 mt-5 max-sm:flex-col' > 
                         <div className='max-lg:w-full'>
                         <label htmlFor="text" className='text-[18px] text-white '>Phone *</label> <br />
                         <input type="number" name='number' placeholder='Enter phone number' className='w-[16rem] max-lg:w-full

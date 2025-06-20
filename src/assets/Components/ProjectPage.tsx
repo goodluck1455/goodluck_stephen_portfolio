@@ -21,10 +21,7 @@ interface ProjectPageProps {
 }
 
 const ProjectPage: React.FC<ProjectPageProps> = () => {
-const {moreProject, setMorePoroject} = useProjectStore()
-
-   
-
+  const { moreProject, setMorePoroject } = useProjectStore();
 
   return (
     <>
@@ -40,7 +37,6 @@ const {moreProject, setMorePoroject} = useProjectStore()
 
           <div className="text-center  text-3xl mt-8">
             <h3>
-          
               <span className="text-black font-bold ">My Latest </span>
               <span className="text-[#FD853A] italic"> Projects</span>
             </h3>
@@ -68,27 +64,32 @@ const {moreProject, setMorePoroject} = useProjectStore()
             />
 
             <ProjectDisplay
-              projectName={" My Portfolio web site "}
-              projectImage={"/portfolio-web.png"}
-              projectLink={"https://goodluck-stephen-portfolio.vercel.app/"}
+              projectName={"Country Rest API - Frontend Mentor "}
+              projectImage={"/country-rest-api.png"}
+              projectLink={"https://goodluck-country-rest-api.netlify.app/"}
             />
           </div>
 
           <div className="flex justify-center items-center pb-6 max-sm:pb-0">
-
-            <div className=' relative mt-[1rem] text-[14px] after:absolute after:w-full after:max-sm:w-full 
+            <div
+              className=" relative mt-[1rem] text-[14px] after:absolute after:w-full after:max-sm:w-full 
                       after:bg-[#FD853A] after:rounded-[30px] after:z-0 after:top-[-2px] max-xl:after:w-full
-                      after:h-[2.5rem] cursor-pointer flex  rounded-[30px] items-center gap-1 max-xl:gap-1.5 max-sm:gap-1'>
-                       
-                        <button className='p-[5px] font-semibold flex justify-center text-center items-center text-[17px] h-full cursor-pointer max-sm:px-2.5 max-sm:w-fit w-full  z-10 rounded-[30px] text-white bg-[#344E41]'
-                        onClick={setMorePoroject}>
-                        View more</button> <IoArrowForwardCircleSharp  size={35} className='AboutPage__arrowIcon  text-[white] '/>  
-                        </div>
-
+                      after:h-[2.5rem] cursor-pointer flex  rounded-[30px] items-center gap-1 max-xl:gap-1.5 max-sm:gap-1"
+            >
+              <button
+                className="p-[5px] font-semibold flex justify-center text-center items-center text-[17px] h-full cursor-pointer max-sm:px-2.5 max-sm:w-fit w-full  z-10 rounded-[30px] text-white bg-[#344E41]"
+                onClick={setMorePoroject}
+              >
+                View more
+              </button>{" "}
+              <IoArrowForwardCircleSharp
+                size={35}
+                className="AboutPage__arrowIcon  text-[white] "
+              />
+            </div>
           </div>
 
           {moreProject && <ViewMoreProject />}
-
         </div>
       </div>
     </>
