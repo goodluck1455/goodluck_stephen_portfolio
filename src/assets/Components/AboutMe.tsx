@@ -61,12 +61,12 @@ const myCv = "/Stephen(Frontend Dev).pd";
             </div>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1 className='text-4xl text-[#FD853A]'>3+</h1>
+              <h1 className='text-4xl text-[#FD853A]'>5+</h1>
               <p className='text-white mt-[15px] max-sm:mt-[8px]'>Years of Experience</p>
             </div>
 
             <div className='text-center leading-0 max-sm:leading-6'>
-              <h1  className='text-4xl text-[#FD853A]'>5+</h1>
+              <h1  className='text-4xl text-[#FD853A]'>10+</h1>
               <p className='text-white mt-[15px] max-sm:mt-[8px]'>Happy Clients</p>
             </div>
           </div>
