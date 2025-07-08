@@ -33,7 +33,8 @@ export default function ProjectDisplay({ projectName, projectImage, projectLink 
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-          
+           onClick={() => window.open(projectLink, "_blank")}
+
           
           className=' p-[12px] h-[28rem] rounded-[12px] w-[32rem] bg-[white] max-sm:w-full max-sm:h-auto'>
 
